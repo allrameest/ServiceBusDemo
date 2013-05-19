@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Rhino.ServiceBus</id>
+    <version>3.1.0.0</version>
+    <title>Rhino.ServiceBus</title>
+    <authors>Ayende Rahien,  Corey Kaylor</authors>
+    <owners>Ayende Rahien,  Corey Kaylor</owners>
+    <licenseUrl>https://raw.github.com/hibernating-rhinos/rhino-esb/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/hibernating-rhinos/rhino-esb</projectUrl>
+    <iconUrl>https://github.com/hibernating-rhinos/rhino-esb/wiki/images/rhino-icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A developer friendly service bus for .NET</description>
+    <tags>rhino servicebus bus msmq messaging cqrs async queue publish subscribe pub sub</tags>
+    <dependencies>
+      <dependency id="Common.Logging" version="2.1.1" />
+    </dependencies>
+  </metadata>
+</package>

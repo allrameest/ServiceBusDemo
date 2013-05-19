@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Rhino.ServiceBus.Autofac</id>
+    <version>3.1.0.0</version>
+    <title>Rhino.ServiceBus.Autofac</title>
+    <authors>Steve Wagner,  Corey Kaylor</authors>
+    <owners>Steve Wagner,  Corey Kaylor</owners>
+    <licenseUrl>https://raw.github.com/hibernating-rhinos/rhino-esb/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/hibernating-rhinos/rhino-esb</projectUrl>
+    <iconUrl>https://github.com/hibernating-rhinos/rhino-esb/wiki/images/rhino-icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Autofac integration with Rhino.ServiceBus</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>rhino autofac servicebus bus msmq messaging cqrs</tags>
+    <dependencies>
+      <dependency id="Rhino.ServiceBus" version="3.1.0.0" />
+      <dependency id="Autofac" version="[2.6.3.862]" />
+    </dependencies>
+  </metadata>
+</package>
