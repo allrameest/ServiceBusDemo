@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{92FC7379-7D54-49FC-AAD7-47C4DE4822B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "HelloWorld\Client\Client.csproj", "{92FC7379-7D54-49FC-AAD7-47C4DE4822B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{2EC6B7D1-2643-472D-9B07-9E8D26451423}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "HelloWorld\Backend\Backend.csproj", "{2EC6B7D1-2643-472D-9B07-9E8D26451423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{AC952F42-1DDA-4020-AD44-A335A2A80F57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "HelloWorld\Messages\Messages.csproj", "{AC952F42-1DDA-4020-AD44-A335A2A80F57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

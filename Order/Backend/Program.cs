@@ -1,4 +1,4 @@
-﻿namespace OrderBackend
+﻿namespace Backend
 {
     internal class Program
     {
