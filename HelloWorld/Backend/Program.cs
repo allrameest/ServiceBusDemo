@@ -10,12 +10,6 @@ namespace Backend
             AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
                                                           HandleException((Exception) args.ExceptionObject);
 
-            //var builder = new ContainerBuilder();
-            //var container = builder.Build();
-            //new RhinoServiceBusConfiguration()
-            //    .UseAutofac(container)
-            //    .Configure();
-
             new DefaultHost()
                 .Start<BootStrapper>();
             
