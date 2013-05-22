@@ -11,7 +11,7 @@ namespace Tests
     public class OrderSagaTests
     {
         [Test]
-        public void PaymentCompleted_WhenArticlesNotReserved_DeliverArticles()
+        public void PaymentCompleted_WhenArticlesNotReserved_DoNotDeliverArticles()
         {
             var bus = A.Fake<IServiceBus>();
             var orderSaga = new OrderSaga(bus);
